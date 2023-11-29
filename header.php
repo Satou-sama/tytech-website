@@ -8,17 +8,8 @@
 <header>
     <nav>
         <h2>Tytech</h2>
-        <form action="backend/controller.php" method="POST">
-            <input type="hidden" name="formType" value="logout">
-            <input class="logout"  type="submit" value="logout">
-        </form>
-        <?php
-            if($_SESSION['admin'] == 1)
-            {
-                echo "<form action='backend/fundsController.php' method='POST'>";
-                echo "<input class='logout'  type='submit' value='users'>";
-                echo "</form>";
-            }
-        ?>
+        <a href="">Klanten</a>
+        <a href="">Over Ons</a>
+        <a href="https://help.tytech.nl">Support</a>
     </nav>
 </header>
